@@ -10,6 +10,72 @@
     <title>Inicio</title>
 </head>
 <body>
-    
+
+    <header class="container-fluid text-center bg-primary text-white">
+        <div class="row">
+            <h1 class="colocar-arriba">Formularios</h1>
+        </div>
+    </header>
+
+    <nav class="navbar bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="form1.html">Formulario 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form2.html">Formulario 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+
+        <form action="mailto:scorreyerop01@educarex.es" method="post" enctype="text/plain" class="colocar-arriba">
+
+            <label>Introduce tu nombre de usuario</label> <br>
+            <input type="text" placeholder="Ej: leomessi10" required> <br>
+
+            <label>Introduce una contraseña</label> <br>
+            <input type="password" placeholder="**********" required> <br>
+
+            <label>Introduce tu número de telefono</label> <br>
+            <input type="number" placeholder="(+34) 123 45 67 89" required> <br>
+
+            <label>Introduce tu correo de contacto</label> <br>
+            <input type="email" placeholder="ejemplo@ejemplo.com" required> <br>
+
+            <label>Marca la fecha de registro</label> <br>
+            <input type="date"> <br>
+
+            <label>Foto de Perfil de usuario</label> <br>
+            <input type="file"> <br>
+
+            <label>Acepta los términos y condiciones de la página</label> <br>
+            <input type="checkbox" required> <br>
+
+            <!--Botón para enviar el formulario-->
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+
+    </main>
+
+    <footer class="container-fluid bg-secondary text-center">
+
+        <div class="row">
+            <h2>Trabajo realizado por Saúl Correyero Pañero.</h2>
+        </div>
+
+    </footer>
+
 </body>
 </html>
